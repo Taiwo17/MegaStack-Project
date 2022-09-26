@@ -1,0 +1,274 @@
+.hero-container {
+  background-image: url('/public/images/Rectangle 8.png');
+  height: 723.008px;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6.25rem auto;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--dark);
+  margin-bottom: 24px;
+}
+
+.hero-content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 24px;
+}
+
+.hero-btn {
+  color: var(--dark);
+  background-color: var(--btn-color);
+  padding: 24px 48px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.5rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-container {
+  padding: 0 126px 0 129px;
+}
+.main-content {
+  margin-bottom: 2rem;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+}
+.card-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.card-section > * {
+  flex: 1;
+}
+.image-card {
+  border: 0.125rem solid #d8eefd;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  height: 22.125rem;
+  padding: 1rem 0 0 1.1875rem;
+  margin-bottom: 17.8125rem;
+  /* flex-shrink: 0; */
+}
+
+.user-img {
+  width: 7.1731rem;
+  height: 6.1994rem;
+  margin-bottom: 25px;
+}
+
+.card-text {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 24px;
+}
+.card-description {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: var(--ria-secondary-color);
+}
+.big-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.service-title {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+.service-content {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.big-card {
+  width: 656px;
+  height: 265px;
+  position: relative;
+  margin-bottom: 1.875rem;
+}
+
+.image-content {
+  position: absolute;
+  margin: 1.3125rem 0 0 1.3125rem;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: var(--neutral-black);
+}
+.work-title {
+  margin: 4.125rem 0 0.625rem 0;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.work-description {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-bottom: 2.9375rem;
+}
+
+.second-image-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.125rem;
+}
+
+.big-img-cards {
+  width: 576px;
+  height: 382px;
+}
+.work-content {
+  text-align: center;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+  margin-top: 1.875rem;
+}
+.parralex {
+  background-color: var(--ria-primary-color);
+  height: 295px;
+  margin-bottom: 8.5625rem;
+}
+.parralex-section {
+  padding: 4.625rem 0 0 9.0625rem;
+  margin-top: 10.5rem;
+}
+.parralex-title {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.parralex-content {
+  color: var(--white);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+.parralex-btn {
+  width: 7.0625rem;
+  height: 2.8125rem;
+  margin-left: 720px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #323665;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #d8eefd;
+}
+
+.footer {
+  height: 359px;
+  background: #f3f8fc;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.625rem 13.5rem 5.25rem 8.5rem;
+}
+.contact-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #111222;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-menu {
+  display: flex;
+  gap: 0.625rem;
+  margin-top: 1rem;
+}
+.menu-img {
+  width: 24px;
+  height: 24px;
+}
+
+.stack-text {
+  /* margin-bottom: 16px; */
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: #111222;
+}
+.text-footer {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #111222;
+  margin-bottom: 1rem;
+}
